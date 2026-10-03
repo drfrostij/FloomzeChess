@@ -1,1 +1,69 @@
+# ================================
+# GitHub Linguist configuration
+# ================================
 
+# Ignore Python cache files
+__pycache__/** linguist-generated
+*.pyc linguist-generated
+*.pyo linguist-generated
+*.pyd linguist-generated
+
+# Ignore virtual environments
+venv/** linguist-vendored
+.venv/** linguist-vendored
+env/** linguist-vendored
+
+# Ignore dependencies
+node_modules/** linguist-vendored
+
+# Ignore images/assets
+*.png linguist-vendored
+*.jpg linguist-vendored
+*.jpeg linguist-vendored
+*.gif linguist-vendored
+*.webp linguist-vendored
+*.ico linguist-vendored
+*.bmp linguist-vendored
+*.svg linguist-vendored
+
+# Ignore audio
+*.wav linguist-vendored
+*.mp3 linguist-vendored
+*.ogg linguist-vendored
+*.flac linguist-vendored
+
+# Ignore video
+*.mp4 linguist-vendored
+*.mov linguist-vendored
+*.avi linguist-vendored
+*.webm linguist-vendored
+
+# Ignore archives
+*.zip linguist-vendored
+*.rar linguist-vendored
+*.7z linguist-vendored
+*.tar linguist-vendored
+*.gz linguist-vendored
+
+# Ignore compiled/binary files
+*.exe linguist-vendored
+*.dll linguist-vendored
+*.so linguist-vendored
+*.bin linguist-vendored
+
+# Ignore common generated/build folders
+build/** linguist-generated
+dist/** linguist-generated
+*.spec linguist-generated
+
+# Ignore IDE/editor files
+.vscode/** linguist-vendored
+.idea/** linguist-vendored
+
+# Ignore database files
+*.db linguist-vendored
+*.sqlite linguist-vendored
+*.sqlite3 linguist-vendored
+
+# Ignore log files
+*.log linguist-generated
